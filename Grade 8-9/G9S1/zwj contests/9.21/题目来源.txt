@@ -1,0 +1,5 @@
+USACO 2016OPEN
+1 Platinum 262144
+2 Platinum Landscaping
+3 GOLD Closing the Farm
+4 SILVER Field Reduction

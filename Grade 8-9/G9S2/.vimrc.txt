@@ -1,0 +1,11 @@
+set shiftwidth=4
+set tabstop=4
+set mouse=a
+color desert
+set smartindent
+set autoindent
+set number
+set selection=exclusive
+set selectmode=mouse,key
+set guifont=Monaco:h20
+filetype on

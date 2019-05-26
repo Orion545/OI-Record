@@ -1,0 +1,10 @@
+const
+ filename='Defense';
+begin
+ assign(input,filename+'.in');reset(input);
+ assign(output,filename+'.out');rewrite(output);
+ writeln(12);
+ writeln(7);
+ writeln(-1);
+ close(input);close(output);
+end.

@@ -1,0 +1,8 @@
+USACO 2015 DEC
+1 2015 DEC Platinum Max Flow
+
+2 2015 DEC Platinum High Card Low Card (Platinum)
+
+3 2015 DEC Platinum Counting Haybales
+
+4 2006 MAR GOLD Milk Team Select 

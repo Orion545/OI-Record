@@ -1,0 +1,22 @@
+USACO 2013 January
+
+
+第一题Cow Lineup 单调队列
+
+
+第二题Island Travels
+先用dfs将每一个island编号。
+spfa求出island两两之间最短路。
+状压dp搞一搞。第一维是状态，第二维是最后一个到达的island。
+
+
+第三题Seating
+线段树。
+在每个节点上维护标记、段中最大空闲、左端最大空闲、右端最大空闲。
+
+
+
+
+第四题ag。Square Overlap  STL set
+
+ag。Party Invitations 队列

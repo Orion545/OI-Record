@@ -1,0 +1,769 @@
+***************************do s1
+query 0 1 10 1 4 1
+query 0 1 5 1 4 1
+query 0 1 3 1 4 1
+query 0 4 5 1 4 1
+query 0 4 4 1 4 1
+insert 11 0 1 10 4 1
+insert 12 0 1 5 4 1
+insert 13 0 4 5 4 1
+insert 14 0 4 4 4 1
+add 14 1
+add 13 14
+add 12 13
+add 11 12
+query 11 1 10 1 10 2
+add 2 11
+insert 15 11 1 10 10 2
+insert 16 0 6 10 10 2
+insert 17 0 9 10 10 2
+insert 18 0 10 10 10 2
+add 18 2
+add 17 18
+add 16 17
+add 15 12
+add 15 16
+query 15 1 10 1 1 3
+query 12 1 5 1 1 3
+query 0 1 3 1 1 3
+query 0 1 2 1 1 3
+query 0 1 1 1 1 3
+insert 19 15 1 10 1 3
+insert 20 12 1 5 1 3
+insert 21 0 1 3 1 3
+insert 22 0 1 2 1 3
+insert 23 0 1 1 1 3
+add 23 3
+add 22 23
+add 21 22
+add 20 21
+add 20 13
+add 19 20
+add 19 16
+query 19 1 10 1 9 4
+query 20 1 5 1 9 4
+add 4 20
+query 16 6 10 1 9 4
+query 0 6 8 1 9 4
+query 17 9 10 1 9 4
+query 0 9 9 1 9 4
+insert 24 19 1 10 9 4
+insert 25 16 6 10 9 4
+insert 26 17 9 10 9 4
+insert 27 0 9 9 9 4
+add 27 4
+add 26 27
+add 26 18
+add 25 26
+add 24 20
+add 24 25
+query 24 1 10 1 6 5
+query 20 1 5 1 6 5
+add 5 20
+query 25 6 10 1 6 5
+query 0 6 8 1 6 5
+query 0 6 7 1 6 5
+query 0 6 6 1 6 5
+insert 28 24 1 10 6 5
+insert 29 25 6 10 6 5
+insert 30 0 6 8 6 5
+insert 31 0 6 7 6 5
+insert 32 0 6 6 6 5
+add 32 5
+add 31 32
+add 30 31
+add 29 30
+add 29 26
+add 28 20
+add 28 29
+query 28 1 10 1 2 6
+query 20 1 5 1 2 6
+query 21 1 3 1 2 6
+query 22 1 2 1 2 6
+add 6 22
+insert 33 28 1 10 2 6
+insert 34 20 1 5 2 6
+insert 35 21 1 3 2 6
+insert 36 22 1 2 2 6
+insert 37 0 2 2 2 6
+add 37 6
+add 36 23
+add 36 37
+add 35 36
+add 34 35
+add 34 13
+add 33 34
+add 33 29
+query 33 1 10 1 3 7
+query 34 1 5 1 3 7
+query 35 1 3 1 3 7
+add 7 35
+insert 38 33 1 10 3 7
+insert 39 34 1 5 3 7
+insert 40 35 1 3 3 7
+insert 41 0 3 3 3 7
+add 41 7
+add 40 36
+add 40 41
+add 39 40
+add 39 13
+add 38 39
+add 38 29
+query 38 1 10 1 7 8
+query 39 1 5 1 7 8
+add 8 39
+query 29 6 10 1 7 8
+query 30 6 8 1 7 8
+query 31 6 7 1 7 8
+add 8 31
+insert 42 38 1 10 7 8
+insert 43 29 6 10 7 8
+insert 44 30 6 8 7 8
+insert 45 31 6 7 7 8
+insert 46 0 7 7 7 8
+add 46 8
+add 45 32
+add 45 46
+add 44 45
+add 43 44
+add 43 26
+add 42 39
+add 42 43
+query 42 1 10 1 8 9
+query 39 1 5 1 8 9
+add 9 39
+query 43 6 10 1 8 9
+query 44 6 8 1 8 9
+add 9 44
+insert 47 42 1 10 8 9
+insert 48 43 6 10 8 9
+insert 49 44 6 8 8 9
+insert 50 0 8 8 8 9
+add 50 9
+add 49 45
+add 49 50
+add 48 49
+add 48 26
+add 47 39
+add 47 48
+query 47 1 10 1 5 10
+query 39 1 5 1 5 10
+add 10 39
+insert 51 47 1 10 5 10
+insert 52 39 1 5 5 10
+insert 53 13 4 5 5 10
+insert 54 0 5 5 5 10
+add 54 10
+add 53 14
+add 53 54
+add 52 40
+add 52 53
+add 51 52
+add 51 48
+***************************do s2
+query 0 1 10 1 1 3
+query 0 1 5 1 1 3
+query 0 1 3 1 1 3
+query 0 1 2 1 1 3
+query 0 1 1 1 1 3
+insert 55 0 1 10 1 3
+insert 56 0 1 5 1 3
+insert 57 0 1 3 1 3
+insert 58 0 1 2 1 3
+insert 59 0 1 1 1 3
+add 59 3
+add 58 59
+add 57 58
+add 56 57
+add 55 56
+query 55 1 10 1 2 6
+query 56 1 5 1 2 6
+query 57 1 3 1 2 6
+query 58 1 2 1 2 6
+add 6 58
+insert 60 55 1 10 2 6
+insert 61 56 1 5 2 6
+insert 62 57 1 3 2 6
+insert 63 58 1 2 2 6
+insert 64 0 2 2 2 6
+add 64 6
+add 63 59
+add 63 64
+add 62 63
+add 61 62
+add 60 61
+query 60 1 10 1 10 7
+add 7 60
+insert 65 60 1 10 10 7
+insert 66 0 6 10 10 7
+insert 67 0 9 10 10 7
+insert 68 0 10 10 10 7
+add 68 7
+add 67 68
+add 66 67
+add 65 61
+add 65 66
+query 65 1 10 1 9 1
+query 61 1 5 1 9 1
+add 1 61
+query 66 6 10 1 9 1
+query 0 6 8 1 9 1
+query 67 9 10 1 9 1
+query 0 9 9 1 9 1
+insert 69 65 1 10 9 1
+insert 70 66 6 10 9 1
+insert 71 67 9 10 9 1
+insert 72 0 9 9 9 1
+add 72 1
+add 71 72
+add 71 68
+add 70 71
+add 69 61
+add 69 70
+query 69 1 10 1 8 10
+query 61 1 5 1 8 10
+add 10 61
+query 70 6 10 1 8 10
+query 0 6 8 1 8 10
+insert 73 69 1 10 8 10
+insert 74 70 6 10 8 10
+insert 75 0 6 8 8 10
+insert 76 0 8 8 8 10
+add 76 10
+add 75 76
+add 74 75
+add 74 71
+add 73 61
+add 73 74
+query 73 1 10 1 5 5
+query 61 1 5 1 5 5
+add 5 61
+insert 77 73 1 10 5 5
+insert 78 61 1 5 5 5
+insert 79 0 4 5 5 5
+insert 80 0 5 5 5 5
+add 80 5
+add 79 80
+add 78 62
+add 78 79
+add 77 78
+add 77 74
+query 77 1 10 1 6 8
+query 78 1 5 1 6 8
+add 8 78
+query 74 6 10 1 6 8
+query 75 6 8 1 6 8
+query 0 6 7 1 6 8
+query 0 6 6 1 6 8
+insert 81 77 1 10 6 8
+insert 82 74 6 10 6 8
+insert 83 75 6 8 6 8
+insert 84 0 6 7 6 8
+insert 85 0 6 6 6 8
+add 85 8
+add 84 85
+add 83 84
+add 83 76
+add 82 83
+add 82 71
+add 81 78
+add 81 82
+query 81 1 10 1 7 9
+query 78 1 5 1 7 9
+add 9 78
+query 82 6 10 1 7 9
+query 83 6 8 1 7 9
+query 84 6 7 1 7 9
+add 9 84
+insert 86 81 1 10 7 9
+insert 87 82 6 10 7 9
+insert 88 83 6 8 7 9
+insert 89 84 6 7 7 9
+insert 90 0 7 7 7 9
+add 90 9
+add 89 85
+add 89 90
+add 88 89
+add 88 76
+add 87 88
+add 87 71
+add 86 78
+add 86 87
+query 86 1 10 1 3 4
+query 78 1 5 1 3 4
+query 62 1 3 1 3 4
+add 4 62
+insert 91 86 1 10 3 4
+insert 92 78 1 5 3 4
+insert 93 62 1 3 3 4
+insert 94 0 3 3 3 4
+add 94 4
+add 93 63
+add 93 94
+add 92 93
+add 92 79
+add 91 92
+add 91 87
+query 91 1 10 1 4 2
+query 92 1 5 1 4 2
+query 93 1 3 1 4 2
+add 2 93
+query 79 4 5 1 4 2
+query 0 4 4 1 4 2
+insert 95 91 1 10 4 2
+insert 96 92 1 5 4 2
+insert 97 79 4 5 4 2
+insert 98 0 4 4 4 2
+add 98 2
+add 97 98
+add 97 80
+add 96 93
+add 96 97
+add 95 96
+add 95 87
+***************************do s3
+query 0 1 10 1 3 3
+query 0 1 5 1 3 3
+query 0 1 3 1 3 3
+insert 99 0 1 10 3 3
+insert 100 0 1 5 3 3
+insert 101 0 1 3 3 3
+insert 102 0 3 3 3 3
+add 102 3
+add 101 102
+add 100 101
+add 99 100
+query 99 1 10 1 6 6
+query 100 1 5 1 6 6
+add 6 100
+query 0 6 10 1 6 6
+query 0 6 8 1 6 6
+query 0 6 7 1 6 6
+query 0 6 6 1 6 6
+insert 103 99 1 10 6 6
+insert 104 0 6 10 6 6
+insert 105 0 6 8 6 6
+insert 106 0 6 7 6 6
+insert 107 0 6 6 6 6
+add 107 6
+add 106 107
+add 105 106
+add 104 105
+add 103 100
+add 103 104
+query 103 1 10 1 4 4
+query 100 1 5 1 4 4
+query 101 1 3 1 4 4
+add 4 101
+query 0 4 5 1 4 4
+query 0 4 4 1 4 4
+insert 108 103 1 10 4 4
+insert 109 100 1 5 4 4
+insert 110 0 4 5 4 4
+insert 111 0 4 4 4 4
+add 111 4
+add 110 111
+add 109 101
+add 109 110
+add 108 109
+add 108 104
+query 108 1 10 1 2 2
+query 109 1 5 1 2 2
+query 101 1 3 1 2 2
+query 0 1 2 1 2 2
+insert 112 108 1 10 2 2
+insert 113 109 1 5 2 2
+insert 114 101 1 3 2 2
+insert 115 0 1 2 2 2
+insert 116 0 2 2 2 2
+add 116 2
+add 115 116
+add 114 115
+add 114 102
+add 113 114
+add 113 110
+add 112 113
+add 112 104
+query 112 1 10 1 5 5
+query 113 1 5 1 5 5
+add 5 113
+insert 117 112 1 10 5 5
+insert 118 113 1 5 5 5
+insert 119 110 4 5 5 5
+insert 120 0 5 5 5 5
+add 120 5
+add 119 111
+add 119 120
+add 118 114
+add 118 119
+add 117 118
+add 117 104
+query 117 1 10 1 8 8
+query 118 1 5 1 8 8
+add 8 118
+query 104 6 10 1 8 8
+query 105 6 8 1 8 8
+add 8 105
+insert 121 117 1 10 8 8
+insert 122 104 6 10 8 8
+insert 123 105 6 8 8 8
+insert 124 0 8 8 8 8
+add 124 8
+add 123 106
+add 123 124
+add 122 123
+add 121 118
+add 121 122
+query 121 1 10 1 9 9
+query 118 1 5 1 9 9
+add 9 118
+query 122 6 10 1 9 9
+query 123 6 8 1 9 9
+add 9 123
+query 0 9 10 1 9 9
+query 0 9 9 1 9 9
+insert 125 121 1 10 9 9
+insert 126 122 6 10 9 9
+insert 127 0 9 10 9 9
+insert 128 0 9 9 9 9
+add 128 9
+add 127 128
+add 126 123
+add 126 127
+add 125 118
+add 125 126
+query 125 1 10 1 10 10
+add 10 125
+insert 129 125 1 10 10 10
+insert 130 126 6 10 10 10
+insert 131 127 9 10 10 10
+insert 132 0 10 10 10 10
+add 132 10
+add 131 128
+add 131 132
+add 130 123
+add 130 131
+add 129 118
+add 129 130
+query 129 1 10 1 1 1
+query 118 1 5 1 1 1
+query 114 1 3 1 1 1
+query 115 1 2 1 1 1
+query 0 1 1 1 1 1
+insert 133 129 1 10 1 1
+insert 134 118 1 5 1 1
+insert 135 114 1 3 1 1
+insert 136 115 1 2 1 1
+insert 137 0 1 1 1 1
+add 137 1
+add 136 137
+add 136 116
+add 135 136
+add 135 102
+add 134 135
+add 134 119
+add 133 134
+add 133 130
+query 133 1 10 1 7 7
+query 134 1 5 1 7 7
+add 7 134
+query 130 6 10 1 7 7
+query 123 6 8 1 7 7
+query 106 6 7 1 7 7
+add 7 106
+insert 138 133 1 10 7 7
+insert 139 130 6 10 7 7
+insert 140 123 6 8 7 7
+insert 141 106 6 7 7 7
+insert 142 0 7 7 7 7
+add 142 7
+add 141 107
+add 141 142
+add 140 141
+add 140 124
+add 139 140
+add 139 131
+add 138 134
+add 138 139
+tarjan 1
+tarjan 61
+tarjan 62
+tarjan 63
+tarjan 64
+tarjan 6
+tarjan 100
+tarjan 101
+tarjan 102
+tarjan 3
+find bcc 1
+	ele 3
+find bcc 2
+	ele 102
+find bcc 3
+	ele 101
+find bcc 4
+	ele 100
+tarjan 58
+tarjan 59
+find bcc 5
+	ele 59
+find bcc 6
+	ele 58
+tarjan 22
+tarjan 23
+find bcc 7
+	ele 23
+find bcc 8
+	ele 22
+find bcc 9
+	ele 6
+find bcc 10
+	ele 64
+find bcc 11
+	ele 63
+find bcc 12
+	ele 62
+find bcc 13
+	ele 61
+find bcc 14
+	ele 1
+tarjan 2
+tarjan 93
+tarjan 94
+tarjan 4
+tarjan 20
+tarjan 13
+tarjan 14
+find bcc 15
+	ele 14
+find bcc 16
+	ele 13
+tarjan 21
+find bcc 17
+	ele 21
+find bcc 18
+	ele 20
+find bcc 19
+	ele 4
+find bcc 20
+	ele 94
+find bcc 21
+	ele 93
+tarjan 11
+tarjan 12
+find bcc 22
+	ele 12
+find bcc 23
+	ele 11
+find bcc 24
+	ele 2
+tarjan 5
+tarjan 113
+tarjan 110
+tarjan 111
+find bcc 25
+	ele 111
+find bcc 26
+	ele 110
+tarjan 114
+tarjan 115
+tarjan 116
+find bcc 27
+	ele 116
+find bcc 28
+	ele 115
+find bcc 29
+	ele 114
+find bcc 30
+	ele 113
+find bcc 31
+	ele 5
+tarjan 7
+tarjan 106
+tarjan 107
+find bcc 32
+	ele 107
+find bcc 33
+	ele 106
+tarjan 134
+tarjan 119
+tarjan 120
+find bcc 34
+	ele 120
+find bcc 35
+	ele 119
+tarjan 135
+tarjan 136
+tarjan 137
+find bcc 36
+	ele 137
+find bcc 37
+	ele 136
+find bcc 38
+	ele 135
+find bcc 39
+	ele 134
+tarjan 60
+find bcc 40
+	ele 60
+tarjan 35
+tarjan 36
+tarjan 37
+find bcc 41
+	ele 37
+find bcc 42
+	ele 36
+find bcc 43
+	ele 35
+find bcc 44
+	ele 7
+tarjan 8
+tarjan 105
+find bcc 45
+	ele 105
+tarjan 118
+find bcc 46
+	ele 118
+tarjan 78
+tarjan 79
+tarjan 80
+find bcc 47
+	ele 80
+find bcc 48
+	ele 79
+find bcc 49
+	ele 78
+tarjan 31
+tarjan 32
+find bcc 50
+	ele 32
+find bcc 51
+	ele 31
+tarjan 39
+tarjan 40
+tarjan 41
+find bcc 52
+	ele 41
+find bcc 53
+	ele 40
+find bcc 54
+	ele 39
+find bcc 55
+	ele 8
+tarjan 9
+tarjan 123
+tarjan 124
+find bcc 56
+	ele 124
+find bcc 57
+	ele 123
+tarjan 84
+tarjan 85
+find bcc 58
+	ele 85
+find bcc 59
+	ele 84
+tarjan 44
+tarjan 45
+tarjan 46
+find bcc 60
+	ele 46
+find bcc 61
+	ele 45
+find bcc 62
+	ele 44
+find bcc 63
+	ele 9
+tarjan 10
+tarjan 125
+tarjan 126
+tarjan 127
+tarjan 128
+find bcc 64
+	ele 128
+find bcc 65
+	ele 127
+find bcc 66
+	ele 126
+find bcc 67
+	ele 125
+find bcc 68
+	ele 10
+bcc No. 1 1 3
+bcc No. 2 1 3
+bcc No. 3 1 2
+bcc No. 4 1 1
+bcc No. 5 1 2
+bcc No. 6 1 1
+bcc No. 7 1 2
+bcc No. 8 1 2
+bcc No. 9 1 3
+bcc No. 10 1 1
+bcc No. 11 1 2
+bcc No. 12 1 3
+bcc No. 13 1 4
+bcc No. 14 1 2
+bcc No. 15 1 1
+bcc No. 16 1 3
+bcc No. 17 1 1
+bcc No. 18 1 2
+bcc No. 19 1 2
+bcc No. 20 1 1
+bcc No. 21 1 1
+bcc No. 22 1 1
+bcc No. 23 1 1
+bcc No. 24 1 1
+bcc No. 25 1 2
+bcc No. 26 1 1
+bcc No. 27 1 2
+bcc No. 28 1 1
+bcc No. 29 1 2
+bcc No. 30 1 1
+bcc No. 31 1 3
+bcc No. 32 1 1
+bcc No. 33 1 3
+bcc No. 34 1 1
+bcc No. 35 1 2
+bcc No. 36 1 1
+bcc No. 37 1 1
+bcc No. 38 1 1
+bcc No. 39 1 1
+bcc No. 40 1 1
+bcc No. 41 1 1
+bcc No. 42 1 2
+bcc No. 43 1 1
+bcc No. 44 1 1
+bcc No. 45 1 1
+bcc No. 46 1 3
+bcc No. 47 1 1
+bcc No. 48 1 1
+bcc No. 49 1 2
+bcc No. 50 1 2
+bcc No. 51 1 1
+bcc No. 52 1 1
+bcc No. 53 1 1
+bcc No. 54 1 3
+bcc No. 55 1 3
+bcc No. 56 1 1
+bcc No. 57 1 2
+bcc No. 58 1 1
+bcc No. 59 1 1
+bcc No. 60 1 1
+bcc No. 61 1 1
+bcc No. 62 1 1
+bcc No. 63 1 1
+bcc No. 64 1 1
+bcc No. 65 1 1
+bcc No. 66 1 1
+bcc No. 67 1 1
+bcc No. 68 1 0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+1

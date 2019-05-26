@@ -1,0 +1,105 @@
+read in Insert
+get 10
+get 97
+inserted a
+get 98
+inserted b
+get 99
+inserted c
+get 100
+inserted d
+get 101
+inserted e
+get 102
+inserted f
+get 103
+inserted g
+get 104
+inserted h
+get 105
+inserted i
+get 106
+inserted j
+get 107
+inserted k
+get 108
+inserted l
+get 109
+inserted m
+get 110
+inserted n
+get 111
+inserted o
+get 112
+inserted p
+get 13
+get 10
+get 113
+inserted q
+get 114
+inserted r
+get 115
+inserted s
+get 116
+inserted t
+get 117
+inserted u
+get 118
+inserted v
+get 32
+inserted  
+get 119
+inserted w
+get 120
+inserted x
+get 121
+inserted y
+end of operation 1
+read in Move
+end of operation 2
+read in Delete
+end of operation 3
+read in Move
+end of operation 4
+read in Insert
+get 10
+get 94
+inserted ^
+end of operation 5
+read in Next
+end of operation 6
+read in Insert
+get 10
+get 95
+inserted _
+end of operation 7
+read in Next
+end of operation 8
+read in Next
+end of operation 9
+read in Insert
+get 10
+get 46
+inserted .
+get 92
+inserted \
+get 47
+inserted /
+get 46
+inserted .
+end of operation 10
+read in Get
+.\/.
+end of operation 11
+read in Prev
+end of operation 12
+read in Insert
+get 10
+get 94
+inserted ^
+end of operation 13
+read in Move
+end of operation 14
+read in Get
+abcde^_^f.\/.ghijklmno
+end of operation 15

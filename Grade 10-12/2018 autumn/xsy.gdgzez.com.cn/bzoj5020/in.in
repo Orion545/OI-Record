@@ -1,0 +1,12 @@
+3 7 C1
+1 1 0
+3 0.5 0.5
+3 -0.5 0.7
+appear 0 1
+travel 0 1 0.3
+appear 0 2
+travel 1 2 0.5
+disappear 0 1
+appear 1 2
+travel 1 2 0.5
+

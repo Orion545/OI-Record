@@ -1,0 +1,4 @@
+a OPEN12 BRONZE Cows in a Row
+b OPEN12 SILVER Bookshelf (Silver)
+c OPEN12 GOLD Tied Down
+d OPEN12 GOLD Balanced Cow Subsets

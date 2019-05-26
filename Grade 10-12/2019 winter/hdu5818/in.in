@@ -1,0 +1,27 @@
+4
+push A 1
+push A 2
+pop A
+pop A
+9
+push A 0
+push A 1
+push B 3
+pop A
+push A 2
+merge A B
+pop A
+pop A
+pop A
+9
+push A 0
+push A 1
+push B 3
+pop A
+push A 2
+merge B A
+pop B
+pop B
+pop B 
+0
+
